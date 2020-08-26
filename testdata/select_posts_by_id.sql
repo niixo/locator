@@ -1,0 +1,1 @@
+SELECT * FROM posts WHERE id = ? ORDER BY id DESC
