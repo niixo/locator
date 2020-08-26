@@ -10,7 +10,7 @@ import (
 var query QueryLocator
 
 func TestMain(m *testing.M) {
-	query = New("testdata")
+	query = NewQuery("testdata")
 
 	code := m.Run()
 

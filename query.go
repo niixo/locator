@@ -15,8 +15,8 @@ type queryLocator struct {
 	fileDir string
 }
 
-// New returns a new instance of query locator
-func New(fileDir string) QueryLocator {
+// NewQuery returns a new instance of query locator
+func NewQuery(fileDir string) QueryLocator {
 	return &queryLocator{fileDir: fileDir}
 }
 
